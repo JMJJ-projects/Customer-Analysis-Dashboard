@@ -52,12 +52,7 @@ After setting up the dashboard, you can use the interface to visualize customer 
 - PostgreSQL (ensure the database is set up correctly)
 
 1. Make sure you have the necessary Python dependencies installed.
-2. Clone the repository or download the source code.
-3. To install and run the **Customer Analysis Dashboard**:
-
-```bash
-pip install customer-analysis-dashboard
-```
+2. Download from the repository: CustomerAnalysis.py
 
 ---
 

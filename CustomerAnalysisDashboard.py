@@ -181,7 +181,7 @@ class MainApp(QtWidgets.QMainWindow):
 # Connect to the database
     def connect_DB(self):       
         self.conn = psycopg2.connect(
-            database="Enterprise%20Data?sslmode=require", user="Data_owner", host="ep-lively-mode-a2bxegau.eu-central-1.aws.neon.tech", password="Wj0xEwFdqc4N"
+            database="Enterprise Data", user="Guest", host="ep-lively-mode-a2bxegau.eu-central-1.aws.neon.tech", password="FE5UMNCte9nT"
         )
         self.cursor = self.conn.cursor()
         
@@ -281,7 +281,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.cursor.execute("SELECT count(*) FROM users WHERE username = '"+str(_username)+"' AND password = '"+str(_password)+"'")
         self.conn.commit()
         authenticate = self.cursor.fetchall()
-        if(authenticate[0][0] == 1):
+        if(authenticate[0][0] > 0):
             self.cursor.execute("SELECT ID FROM users WHERE username = '"+str(_username)+"' AND password = '"+str(_password)+"'")
             self.conn.commit()
             identity = self.cursor.fetchall()

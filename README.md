@@ -49,8 +49,14 @@ After setting up the dashboard, you can use the interface to visualize customer 
 
 **Minimum Requirements**:  
 - Python 3.x
-- PostgreSQL (ensure the database is set up correctly)
-
+- pyqt5
+```bash
+pip install PyQt5
+```
+- psycopg2
+```bash
+pip install psycopg2-binary
+```
 1. Make sure you have the necessary Python dependencies installed.
 2. Download from the repository: CustomerAnalysis.py
 

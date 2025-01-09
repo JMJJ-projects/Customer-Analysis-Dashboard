@@ -7,16 +7,15 @@
 ## 🌟 Highlights
 
 - Interactive dashboard for customer data visualization
-- Real-time data updates for better business insights
+- Shows key metrics for better business insights
 - Filter and search functionalities for in-depth analysis
+- Connected to the cloud by neon
 
 ---
 
 ## ℹ️ Overview
 
-The **Customer Analysis Dashboard** is a python application designed to help businesses visualize and analyze customer data. Built with **PostgreSQL**, **Python**, and **SQL**, this dashboard allows users to track key metrics, filter customer data by various parameters, and make data-driven decisions.
-
-This project was created to simplify data management, improve customer relationship management, and streamline reporting processes for business owners.
+The **Customer Analysis Dashboard** is a python application designed to help businesses visualize and analyze customer data. Built with **PostgreSQL**, **Python**, and **SQL**, this dashboard allows users to track key metrics, filter customer data by various parameters, and make data-driven decisions. It's also connected to the cloud by neon, as my first step into the world of cloud.
 
 ---
 

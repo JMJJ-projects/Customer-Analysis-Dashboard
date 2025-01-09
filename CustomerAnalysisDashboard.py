@@ -183,7 +183,6 @@ class MainApp(QtWidgets.QMainWindow):
         self.conn = psycopg2.connect(
             database="Enterprise%20Data?sslmode=require", user="Data_owner", host="ep-lively-mode-a2bxegau.eu-central-1.aws.neon.tech", password="Wj0xEwFdqc4N"
         )
-        postgresql://Enterprise%20Data_owner:Wj0xEwFdqc4N@ep-lively-mode-a2bxegau.eu-central-1.aws.neon.tech/Enterprise%20Data?sslmode=require
         self.cursor = self.conn.cursor()
         
         # Load data for menu page

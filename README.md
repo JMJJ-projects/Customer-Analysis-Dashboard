@@ -17,7 +17,7 @@
 
 The **Customer Analysis Dashboard** is a python application designed to help businesses visualize and analyze customer data. Built with **PostgreSQL**, **Python**, and **SQL**, this dashboard allows users to track key metrics, filter customer data by various parameters, and make data-driven decisions. It's also connected to the cloud by neon, as my first step into the world of cloud.
 
----
+The dataset was taken from: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
 
 ### ✍️ Authors
 
